@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import DKPhotoGallery
 
 open class DKImageExtensionGallery: DKImageBaseExtension, DKPhotoGalleryDelegate {
     

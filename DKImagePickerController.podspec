@@ -33,8 +33,10 @@ Pod::Spec.new do |s|
 
   s.subspec 'PhotoGallery' do |gallery|
     gallery.dependency 'DKImagePickerController/Core'
-    gallery.dependency 'DKPhotoGallery'
-
+#    gallery.dependency 'DKPhotoGallery'
+    gallery.dependency 'SDWebImage'
+    gallery.dependency 'SDWebImageFLPlugin'
+    
     gallery.source_files = "Sources/Extensions/DKImageExtensionGallery.swift"
   end
 
